@@ -1,9 +1,10 @@
 name: setting-default-labels
 
-on:
-   schedule:
-      - cron: '0 0/3 * * *'
-
+# Triggers intentionally disabled for Argus-OSS-Security.
+# on:
+#    schedule:
+#       - cron: '0 0/3 * * *'
+# 
 jobs:
    label-issues:
       runs-on: ubuntu-latest
